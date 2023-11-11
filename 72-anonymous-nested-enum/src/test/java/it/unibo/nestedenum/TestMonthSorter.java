@@ -119,7 +119,7 @@ class TestMonthSorter {
                 shallowCopy.sort(sorter.sortByOrder());
                 assertEquals(expected, shallowCopy);
                 shallowCopy.sort(sorter.sortByDays());
-                assertEquals(expectedDays, monthsToDays(shallowCopy));
+                assertEquals(expectedDays, monthsToDays(shallowCopy)); 
             }
         }
     }
